@@ -205,11 +205,14 @@ function App() {
 
       {/* HERO */}
       <section className="relative min-h-screen overflow-hidden">
-        <img
-          src="https://images.unsplash.com/photo-1504512485720-7d83a16ee930?auto=format&fit=crop&w=2200&q=90"
-          alt="Kos Greece coastline"
-          className="absolute inset-0 h-full w-full object-cover"
-        />
+    <img
+  src="https://images.unsplash.com/photo-1504512485720-7d83a16ee930?auto=format&fit=crop&w=1200&q=65&fm=webp"
+  alt="Kos Greece coastline"
+  loading="eager"
+  fetchPriority="high"
+  decoding="async"
+  className="absolute inset-0 h-full w-full object-cover"
+/>
 
         <div className="absolute inset-0 bg-black/55" />
 
